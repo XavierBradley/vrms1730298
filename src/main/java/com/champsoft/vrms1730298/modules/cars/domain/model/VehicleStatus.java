@@ -1,0 +1,5 @@
+﻿package com.champsoft.vrms1730298.modules.cars.domain.model;
+
+public enum VehicleStatus {
+    DRAFT, ACTIVE, SUSPENDED
+}
