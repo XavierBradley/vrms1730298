@@ -1,3 +1,13 @@
 ﻿package com.champsoft.vrms1730298.modules.registration.api.dto;
 
-public record RegisterVehicleRequest(String vehicleId, String ownerId, String agentId) { }
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+
+import java.time.LocalDate;
+
+public record RegisterVehicleRequest(
+        @NotBlank String vehicleId,
+        @NotBlank String ownerId,
+        @NotBlank String agentId,
+        @NotBlank String plate,
+        @NotNull LocalDate expiry) {}

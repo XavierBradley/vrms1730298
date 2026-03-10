@@ -1,4 +1,20 @@
 ﻿package com.champsoft.vrms1730298.modules.registration.infrastructure.acl;
 
-public class VehicleEligibilityAdapter {
+import com.champsoft.vrms1730298.modules.cars.application.service.VehicleEligibilityService;
+import com.champsoft.vrms1730298.modules.registration.application.port.out.VehicleEligibilityPort;
+import org.springframework.stereotype.Component;
+
+@Component
+public class VehicleEligibilityAdapter implements VehicleEligibilityPort {
+
+    private final VehicleEligibilityService carsEligibility;
+
+    public VehicleEligibilityAdapter(VehicleEligibilityService carsEligibility) {
+        this.carsEligibility = carsEligibility;
+    }
+
+    @Override
+    public boolean isEligible(String vehicleId) {
+        return carsEligibility.isEligible(vehicleId);
+    }
 }
