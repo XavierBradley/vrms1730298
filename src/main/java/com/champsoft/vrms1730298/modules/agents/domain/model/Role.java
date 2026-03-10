@@ -1,3 +1,6 @@
 ﻿package com.champsoft.vrms1730298.modules.agents.domain.model;
 
-public record Role(String value) { }
+public enum Role {
+    CLERK,
+    SUPERVISOR
+}

@@ -1,4 +1,6 @@
 ﻿package com.champsoft.vrms1730298.modules.agents.infrastructure.persistence;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface SpringDataAgentRepository {
+public interface SpringDataAgentRepository extends JpaRepository<AgentJpaEntity, String> {
+    boolean existsByNameIgnoreCase(String name);
 }
