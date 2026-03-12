@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.agents.infrastructure.persistence;
+package com.champsoft.vrms1730298.modules.agents.infrastructure.persistence;
 
 import com.champsoft.vrms1730298.modules.agents.application.port.out.AgentRepositoryPort;
 import com.champsoft.vrms1730298.modules.agents.domain.model.Agent;

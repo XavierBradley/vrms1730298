@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.registration.infrastructure.acl;
+package com.champsoft.vrms1730298.modules.registration.infrastructure.acl;
 
 import com.champsoft.vrms1730298.modules.owners.application.service.OwnerEligibilityService;
 import com.champsoft.vrms1730298.modules.registration.application.port.out.OwnerEligibilityPort;

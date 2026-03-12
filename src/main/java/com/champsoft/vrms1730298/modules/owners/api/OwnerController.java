@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.owners.api;
+package com.champsoft.vrms1730298.modules.owners.api;
 
 import com.champsoft.vrms1730298.modules.owners.api.dto.CreateOwnerRequest;
 import com.champsoft.vrms1730298.modules.owners.api.dto.UpdateOwnerRequest;

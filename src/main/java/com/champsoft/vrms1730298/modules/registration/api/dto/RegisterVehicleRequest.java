@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.registration.api.dto;
+package com.champsoft.vrms1730298.modules.registration.api.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

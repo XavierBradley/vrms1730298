@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.cars.domain.model;
+package com.champsoft.vrms1730298.modules.cars.domain.model;
 
 import java.util.Objects;
 import java.util.UUID;

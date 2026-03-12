@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.cars.domain.model;
+package com.champsoft.vrms1730298.modules.cars.domain.model;
 
 import com.champsoft.vrms1730298.modules.cars.domain.exception.InvalidVehicleYearException;
 

@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.agents.infrastructure.persistence;
+package com.champsoft.vrms1730298.modules.agents.infrastructure.persistence;
 
 
 import jakarta.persistence.*;

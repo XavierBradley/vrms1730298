@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.owners.api;
+package com.champsoft.vrms1730298.modules.owners.api;
 
 import com.champsoft.vrms1730298.modules.owners.application.exception.DuplicateOwnerException;
 import com.champsoft.vrms1730298.modules.owners.application.exception.OwnerNotFoundException;

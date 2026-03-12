@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.registration.api;
+package com.champsoft.vrms1730298.modules.registration.api;
 import com.champsoft.vrms1730298.modules.registration.api.dto.RegisterVehicleRequest;
 import com.champsoft.vrms1730298.modules.registration.api.dto.RegistrationResponse;
 import com.champsoft.vrms1730298.modules.registration.api.dto.RenewRegistrationRequest;

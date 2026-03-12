@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.owners.api.dto;
+package com.champsoft.vrms1730298.modules.owners.api.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

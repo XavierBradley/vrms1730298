@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.owners.application.port.out;
+package com.champsoft.vrms1730298.modules.owners.application.port.out;
 
 import com.champsoft.vrms1730298.modules.owners.domain.model.Owner;
 import com.champsoft.vrms1730298.modules.owners.domain.model.OwnerId;

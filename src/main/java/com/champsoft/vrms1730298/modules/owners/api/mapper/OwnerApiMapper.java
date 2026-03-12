@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.owners.api.mapper;
+package com.champsoft.vrms1730298.modules.owners.api.mapper;
 
 import com.champsoft.vrms1730298.modules.owners.api.dto.OwnerResponse;
 import com.champsoft.vrms1730298.modules.owners.domain.model.Owner;

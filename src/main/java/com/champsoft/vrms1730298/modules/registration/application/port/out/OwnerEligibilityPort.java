@@ -1,4 +1,4 @@
-﻿package com.champsoft.vrms1730298.modules.registration.application.port.out;
+package com.champsoft.vrms1730298.modules.registration.application.port.out;
 
 public interface OwnerEligibilityPort {
     boolean isEligible(String ownerId);
